@@ -44,7 +44,7 @@ then you get stopped here:
 == 20231105080525 InsertGroups: migrated (0.0052s) ============================
 
 == 20231105080558 LinkUsersToGroups: migrating ================================
--- add_reference(:users, :group, {:foreign_key=>true}) <-------------------------------------------- HERE!
+-- add_reference(:users, :group, {:foreign_key=>true}) <---------------------- HERE!
    -> 0.0049s
 
 ```
